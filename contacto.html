@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tindog - Contacto</title>
+    <!-- bootstrap script -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7ffd0c6b97.js" crossorigin="anonymous"></script>
+    <!-- google stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="validacion.js"></script>
+
+  </head>
+  <body>
+    <section class="color-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" id="navbar-brand" href="index.html">tinPet</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="conocenos.html">Conócenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="descargar.html">Descargar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ingresar.html">Ingresar</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+    <!-- conocenos -->
+        <h2 class="section-heading conocenos-section">Contacto</h2>
+        <div class="row contacto-row">
+          <div class="col-lg-8 col-text">
+            <p class="paragraph-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed imperdiet mauris. Etiam luctus bibendum ex consectetur blandit. Vivamus quis pharetra nulla. Phasellus vel malesuada nibh. Duis at varius tortor. Vivamus convallis dolor eget est volutpat, a aliquet urna feugiat. Maecenas malesuada, nisl in placerat mollis, magna justo elementum lectus, non pulvinar lorem nulla id augue.
+                Maecenas porttitor nunc sit amet magna pellentesque volutpat. Nullam mattis elementum justo, eget facilisis tortor tristique id.  </p><br>
+            <p class="paragraph-white"><strong>Dirección: </strong>Lorem ipsum dolor sit amet #123, consectetur adipiscing elit, Guadalajara, Jal.</p>
+            <p class="paragraph-white"><strong>Email: </strong>estecorreonoexiste@abc.com</p>
+            <p class="paragraph-white"><strong>Tel: </strong>1234 5667 7787</p><br>
+            <!-- <div class="container-fluid"> -->
+              <i class="contacto-icon far fa-envelope fa-2x"></i>
+              <i class="contacto-icon fab fa-facebook-f fa-2x"></i>
+              <i class="contacto-icon fab fa-instagram fa-2x"></i>
+              <i class="contacto-icon fab fa-twitter fa-2x"></i>
+              <!--
+            </div> -->
+
+          </div>
+          <div class="col-lg-4">
+            <img class="conocenos-image" src="images/labrador.jpg" alt="labrador">
+          </div>
+        </div>
+
+    <!-- formulario -->
+
+    <h2 class="section-heading ingresar-margen descargar-section">¡Hablemos!</h2>
+    <h3 class="ingresar-margen descargar-section ">Ingresa tus datos en el siguiente formulario y te contactaremos lo antes posible</h3>
+
+    <form class="contact" name="contact-form" method="post" action="enviar2.php" onsubmit="return clickado();">
+    <!-- <form class="contact" name="contact-form" onsubmit="return clickado();">-->
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault01" class="paragraph-white"><b>*</b> Nombre</label>
+          <input type="text" name="nombre" class="form-control" id="nombre" placeholder="First name" >
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault02" class="paragraph-white"><b>*</b> Email</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="ejemplo@gmail.com" >
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02" class="paragraph-white">Ciudad</label>
+          <input type="text" class="form-control" name="ciudad" id="ciudad" placeholder="Ciudad" >
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault04" class="paragraph-white" onkeypress="solonumeros(event)">Teléfono</label>
+          <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Teléfono" >
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault05" class="paragraph-white">C.P.</label>
+          <input type="text" class="form-control" name="zip" id="zip" placeholder="Zip" >
+        </div>
+      </div>
+      <div class="form-group col-md-12 mb-3">
+        <label for="validationDefault05" class="paragraph-white"><b>*</b> Message</label>
+        <textarea class="form-control col-md-12 mb-3"rows="8" name="mensaje" id="mensaje" placeholder="Mensaje" ></textarea>
+      </div>
+      <div class="form-group ">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" >
+          <label class="form-check-label paragraph-white" for="invalidCheck2">
+            Autorizo el uso de mis datos para que me contacten
+          </label>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="white-section">
+    <footer id="footer">
+      <div class="container-fluid">
+        <i class="social-icon far fa-envelope"></i>
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <p>© Copyrsocial UdGVirtual 2020 TinPet</p>
+      </div>
+    </footer>
+    </section>
+
+
+  </body>
+</html>
