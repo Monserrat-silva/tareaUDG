@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tindog - Precios</title>
+  <!-- bootstrap script -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/7ffd0c6b97.js" crossorigin="anonymous"></script>
+  <!-- google stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="color-section" id="title">
+  <div class="container-fluid descargar-section">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" id="navbar-brand" href="index.html">tinPet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conocenos.html">Conócenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="precios.html">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="descargar.html">Descargar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonios.html">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ingresar.html">Ingresar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <!-- Register form -->
+  <h2 class="section-heading ingresar-margen descargar-section">Registrarse</h2>
+  <form class="formulario">
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationDefault01" class="paragraph-white">Nombre</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationDefault02" class="paragraph-white">Apellido</label>
+        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="inputPassword" class="paragraph-white">Contraseña</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-lock"></i></span>
+          </div>
+          <input type="password" class="form-control" id="validationPassword" placeholder="password" aria-describedby="inputGroupPrepend2" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03" class="paragraph-white">Estado</label>
+        <input type="text" class="form-control" id="validationDefault03" placeholder="Estado" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault04" class="paragraph-white" onkeypress="solonumeros(event)">Teléfono</label>
+        <input type="text" class="form-control" id="validationDefault04" placeholder="Teléfono" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault05" class="paragraph-white">C.P.</label>
+        <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label paragraph-white for="invalidCheck2">
+          Agree to terms and conditions
+        </label>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+</section>
+  <!-- Footer -->
+  <section class="white-section">
+  <footer id="footer">
+    <div class="container-fluid">
+      <i class="social-icon far fa-envelope"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <p>© Copyrsocial UdGVirtual 2020 TinPet</p>
+    </div>
+  </footer>
+  </section>
+
+  <script src="validacion.js" charset="utf-8"></script>
+</body>
+
+</html>
