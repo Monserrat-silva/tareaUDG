@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tindog - Ingresar</title>
+  <!-- bootstrap script -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- Css stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/7ffd0c6b97.js" crossorigin="anonymous"></script>
+  <!-- google stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="color-section" id="title" >
+  <div class="container-fluid ">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" id="navbar-brand" href="index.html">tinPet</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conocenos.html">Conócenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="precios.html">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="descargar.html">Descargar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonios.html">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ingresar.html">Ingresar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Login -->
+
+      <h2 class="section-heading ingresar-margen descargar-section">Ingresar</h2>
+
+        <div class="container">
+            <div id="login-row" class="row ">
+                <div class="col-md-3">
+                </div>
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-6">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center ingresar-title text-ingresar ">User info</h3>
+                            <div class="form-group">
+                                <label for="username" class="">Correo:</label><br>
+                                <input type="text" name="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-labels">Contraseña:</label><br>
+                                <input type="password" name="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="login-text remember-me" class="text-left text-labels"><span>Recordar usuario</span> <span><input name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+
+                            </div>
+                            <div class="text-right olvide-contrasena">
+                                <a href="#" class="">Olvidé contraseña</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                      <p class="lead paragraph-white">Registrate <span>GRATIS</span></p>
+                      <ul class="list-unstyled" style="line-height: 2">
+                          <li><span class="fa fa-check text-success"></span> Encuentra tu mascota ideal</li>
+                          <li><span class="fa fa-check text-success"></span> Conecta con posibles adoptantes</li>
+                          <li><span class="fa fa-check text-success"></span> Registro rapido</li>
+                          <li><span class="fa fa-check text-success"></span> La plataforma mas popular</li>
+                          <li><span class="fa fa-check text-success"></span> Facil de usar</li>
+
+                      </ul>
+                      <a href="registro.html" button type="button" class="btn btn-dark btn-lg descargar-button conocenos-button">Registrarse</a>
+            </div>
+        </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <section class="white-section">
+  <footer id="footer">
+    <div class="container-fluid">
+      <i class="social-icon far fa-envelope"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <p>© Copyrsocial UdGVirtual 2020 TinPet</p>
+    </div>
+  </footer>
+  </section>
+</body>
+
+</html>

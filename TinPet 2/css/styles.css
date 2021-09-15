@@ -1,0 +1,259 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+label{
+  color: #000;
+  text-align: left;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* section */
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  height: 1.5;
+}
+
+/* section title */
+.section-title{
+  line-height: 1.5;
+  margin: 2% auto;
+}
+
+
+/* Paragraph */
+
+.paragraph-white{
+  color: #fff;
+}
+
+/* Navigation bar */
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 5px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-style: 'Montserrat-light', sans-serif;
+}
+/* Descargar buttons */
+.descargar-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+#title{
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%
+}
+/* Title images */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* Features */
+#features{
+  padding: 5% 10% ;
+  position:relative;
+  z-index: 1;
+}
+.feature-title{
+  font-family: 3.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+/* Conocenos section */
+.conocenos-section{
+  text-align: center;
+}
+.conocenos-text{
+  margin: 3% auto;
+}
+.conocenos-image{
+  width: 120%;
+  border-radius: 5%;
+}
+.col-text{
+  padding-right: 6%;
+}
+.conocenos-button{
+  margin: auto;
+}
+
+/* contacto-section */
+.contacto-row{
+  margin: 9% auto;
+}
+.contacto-icon{
+  color: #fff;
+  margin: 20px 20px;
+}
+.contacto-icon:hover{
+  color: #ef8172;
+}
+
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+h2.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+
+.pricing-text-black{
+  color: #8f8f8f;
+}
+
+
+/* Testimonial section */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonal-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding: 3%
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px
+}
+
+/* CTA Section */
+
+/* footer */
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* Descargar section */
+.descargar-section{
+  text-align: center;
+}
+.descargar-photo{
+  width: 50%;
+  border-radius: 5%;
+  margin: 3% auto auto;
+}
+.paragraph-descargar{
+  margin-top: 5%;
+  color: #fff;
+}
+.fila-foto{
+  margin-top: 0;
+}
+
+/* Ingresar */
+.container #login-row #login-column #login-box {
+  margin:  auto;
+  max-width: 600px;
+  height: 330px;
+  /* border: 1px solid #9C9C9C; */
+  background-color: #EAEAEA;
+  border-radius: 5%;
+}
+.ingresar-title{
+  padding-top: 20px;
+}
+.ingresar-margen{
+  margin-bottom: 5%;
+}
+.login-text{
+  padding: 20px;
+  text-align: left;
+  color: #000;
+
+}
+.text-ingresar{
+  color: #000;
+}
+/* .text-labels{
+  color: #000;
+  text-align: left;
+} */
+
+/* Register section */
+.formulario{
+  text-align: left;
+}
+
+
+.olvide-contrasena{
+  margin-top: -85px;
+
+}
+
+
+@media (max-width: 1028px){
+  .title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
